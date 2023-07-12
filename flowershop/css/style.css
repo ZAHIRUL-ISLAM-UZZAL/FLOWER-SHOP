@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* hero section***************** */
+
+header{
+    background-color:#e5545918 ;
+    height: 100vh;
+}
+
+.hero-banner{
+    max-width: 80%;
+    margin: auto;
+}
+
+.banner{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.banner .banner-text h1{
+    font-size: 67px;
+    font-weight: 900;
+}
+
+.banner .banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top:32px;
+    margin-bottom:32px;
+}
+
+.banner .banner-text button{
+    padding:20px 43px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+
+}
+.banner .banner-text button a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner img{
+    height: 570px;
+    width: 400px;
+    object-fit:cover;
+    margin-top: 50px;
+}
+.banner .banner-text{
+    padding-right: 100px;
+
+}
+
+/* ****************featured section */
+.flower-feature{
+    padding-top:164px;
+    padding-bottom: 128px;
+    max-width: 80%;
+    margin: auto;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .title-text h2{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+ }
+ .title-text p{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+max-width: 50%;
+margin-top: 24px;
+}
+
+.flower-feature  .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:48px;
+}
+
+.flower-feature .container .box{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    margin-left: 15px;
+    text-align: center;
+
+}
+.flower-feature .container .box:nth-child(2){
+background: rgba(5, 151, 160, 0.15);
+
+}
+
+.flower-feature .container .box:nth-child(3){
+background: rgba(71, 125, 17, 0.15);
+
+}
+
+
+
+.item img{
+    width: 310px;
+    height: 428px;
+    margin-top: 111px;
+}
+
+.item1 img{
+    width: 370px;
+    height: 370px;
+    margin-top: 100px;
+}
+
+.item2 img {
+    width: 314px;
+    height: 471px;
+    margin-top: 70px;
+
+}
+
+.caption a{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+.item1 .caption{
+    margin-top:100px;
+}
+.item .caption{
+    margin-top:30px;
+}
+.item2 .caption{
+    margin-top:30px;
+}
+
+
+/* hot deal section */
+.hot-deal{
+    background-color:#e5545918 ;
+    
+}
+
+.hot-deal .container{
+    max-width:70%;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.hot-deal .hot-deal-banner{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.hot-deal .hot-deal-banner .hot-deal-text{
+    text-align: center;
+    margin-top:20px;
+}
+.hot-deal .hot-deal-banner h2{
+color: #272727;
+font-size: 30px;
+font-weight: 800;
+}
+
+.hot-deal .hot-deal-banner p{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.hot-deal .hot-deal-banner img{
+    height: 420px;
+    width: 420px;
+    object-fit: contain;
+}
+.hot-deal .hot-deal-banner button{
+    padding:24px 45px;
+    border:none;
+    outline:none;
+    border-radius: 8px;
+    background-color: #E55473;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hot-deal .hot-deal-banner button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.hot-deal .hot-deal-banner span{
+    color: #E55473;
+}
+
+/* instagram */
+
+.instagram{
+    padding: 100px 0;
+    max-width: 80%;
+    margin: auto;
+}
+
+.instagram .insta-row{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+.instagram .insta-row .col{
+    margin-left: 15px;
+}
+.instagram .insta-row .col:first-child{
+    margin-left:0;
+}
+
+.instagram .insta-row img{
+    width: 273px;
+    height: 310px;
+}
+
+
+/* dealing section */
+.get-dealing {
+    max-width: 85%;
+    margin: auto;
+ 
+}
+
+.get-dealing  .container{
+    background-image: url(img/Rectangle\ 9.png);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.get-dealing  .container h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.get-dealing  .container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.get-dealing  .container input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    padding: 22px;
+    border: none;
+    outline: none;
+}
+
+.get-dealing  .container .subscribe button{
+    padding:24px 45px;
+    border:none;
+    outline:none;
+    border-radius: 8px;
+    background-color: #E55473;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+
+/* footer section */
+footer{
+    background-color:#111010;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+footer h2{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer h2 span{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer  p{
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 35%;
+    margin:20px auto;
+    font-size: 16px;
+}
+footer .copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+}
